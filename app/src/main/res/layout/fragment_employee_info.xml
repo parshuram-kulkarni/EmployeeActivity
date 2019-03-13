@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeInfo">
+
+
+
+    <ImageView
+        android:id="@+id/imageOutput"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/employeeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageOutput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textDesignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/employeeName"
+        android:layout_alignLeft="@id/employeeName"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/empName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageOutput"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="20dp"
+        android:text="EmployeeName :-" />
+
+    <TextView
+        android:id="@+id/empDesignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empName"
+        android:layout_alignLeft="@+id/empName"
+        android:layout_marginTop="20dp"
+        android:text="Designation :- " />
+
+    <Button
+        android:id="@+id/backButton"
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textDesignation"
+        android:layout_marginTop="20dp"
+        />
+
+
+</RelativeLayout>

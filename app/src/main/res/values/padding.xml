@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="padding" parent="Layout.">
+    <dimen name="marginStart">94dp</dimen>
+    <dimen name="marginLeft">114dp</dimen>
+    <dimen name="marginTop">79dp</dimen>
+    <dimen name="marginRight">92dp</dimen>
+</resources>

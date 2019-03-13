@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="83dp"
+        android:hint="Enter UserName"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUserName"
+        android:layout_alignLeft="@id/editTextUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="60dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:maxLength="8"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_alignLeft="@id/editTextPassword"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:clickable="false"
+        android:text="LogIn" />
+        <!--android:onClick="clickLogIn"-->
+
+</RelativeLayout>
